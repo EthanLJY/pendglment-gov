@@ -295,6 +295,11 @@ footer {
     margin: auto;
     padding: 10px 20px 16px;
     border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+}
+    .gov-details > div {
+        flex: 1;
 }
     .gov-details[hidden] {
     display: none !important;
@@ -302,6 +307,14 @@ footer {
 
 .gov-details p {
     margin: 4px 0 12px;
+}
+    /* Mobile */
+
+@media (max-width: 700px) {
+    .gov-details {
+        flex-direction: column;
+        gap: 16px;
+    }
 }
 iframe {
     width: 100%;
