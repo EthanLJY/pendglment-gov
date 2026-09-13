@@ -296,7 +296,8 @@ footer {
     padding: 10px 20px 16px;
     border-top: 1px solid #ccc;
     display: flex !important;
-    flex-direction: row;
+    flex-direction: row !important;
+    gap: 40px;
 }
     .gov-details > div {
         flex: 1;
