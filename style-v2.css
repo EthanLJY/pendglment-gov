@@ -300,7 +300,7 @@ footer {
     gap: 40px;
 }
     .gov-details > div {
-        flex: 1;
+        flex: 1 1 0;
 }
     .gov-details[hidden] {
     display: none !important;
