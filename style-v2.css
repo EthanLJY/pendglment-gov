@@ -319,4 +319,13 @@ iframe {
     .footer-right {
         text-align: left;
     }
+    .gov-details {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px 16px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 }
