@@ -232,38 +232,9 @@ footer {
 .footer-right {
     text-align: right;
 }
-/* MOBILE */
-@media (max-width: 750px) {
-    .header-inner {
-        padding: 25px 0;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-    nav {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-    .hero {
-        padding: 80px 0;
-    }
-    .cards {
-        grid-template-columns: 1fr;
-    }
-    .document-inner {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-    .currency-box {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-    .footer-inner {
-        flex-direction: column;
-    }
-    .footer-right {
-        text-align: left;
-    }
-   .gov-banner {
+/* GOVERNMENT BANNER */
+
+.gov-banner {
     background: #f1f1f1;
     color: #222;
     font-family: Arial, Helvetica, sans-serif;
@@ -295,23 +266,99 @@ footer {
     margin: auto;
     padding: 10px 20px 16px;
     border-top: 1px solid #ccc;
-    display: flex !important;
-    flex-direction: row !important;
+    display: flex;
+    flex-direction: row;
     gap: 40px;
 }
-    .gov-details > div {
-        flex: 1 1 0;
+
+.gov-details > div {
+    flex: 1 1 0;
 }
-    .gov-details[hidden] {
+
+.gov-details[hidden] {
     display: none !important;
 }
 
 .gov-details p {
     margin: 4px 0 12px;
 }
-   
+
 iframe {
     width: 100%;
     height: max(1200px, 90vh);
 }
+
+
+/* MOBILE */
+
+@media (max-width: 750px) {
+
+    .header-inner {
+        padding: 25px 0;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 80px 0;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .document-inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .currency-box {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+    }
+
+    .footer-right {
+        text-align: left;
+    }
+}
+/* MOBILE */
+@media (max-width: 750px) {
+    .header-inner {
+        padding: 25px 0;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .hero {
+        padding: 80px 0;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    .document-inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .currency-box {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer-inner {
+        flex-direction: column;
+    }
+    .footer-right {
+        text-align: left;
+    }
 }
