@@ -309,14 +309,7 @@ footer {
 .gov-details p {
     margin: 4px 0 12px;
 }
-    /* Mobile */
-
-@media (max-width: 700px) {
-    .gov-details {
-        flex-direction: column;
-        gap: 16px;
-    }
-}
+   
 iframe {
     width: 100%;
     height: max(1200px, 90vh);
