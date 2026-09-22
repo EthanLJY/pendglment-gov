@@ -45,6 +45,7 @@ header {
     color: #b89b5e;
     font-size: 27px;
     overflow: hidden;
+    box-sizing: border-box;
 }
 .seal img {
     width: 100%;
