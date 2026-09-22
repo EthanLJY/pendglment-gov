@@ -44,6 +44,13 @@ header {
     justify-content: center;
     color: #b89b5e;
     font-size: 27px;
+    overflow: hidden;
+}
+.seal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 .country {
     font-size: 11px;
