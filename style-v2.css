@@ -140,7 +140,7 @@ nav a:hover {
 }
 .card p {
     color: #666;
-    font-size: 15px;
+    font-size: 15px !important;
 }
 .card a {
     display: inline-block;
